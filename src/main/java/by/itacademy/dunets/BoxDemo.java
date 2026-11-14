@@ -14,10 +14,8 @@ public class BoxDemo {
         myBox2.height = 6;
         myBox2.depth = 9;
 
-        vol = myBox1.width * myBox1.height * myBox1.depth;
-        System.out.println("Объем равен " + vol);
+        myBox1.volume();
 
-        vol = myBox2.width * myBox2.height * myBox2.depth;
-        System.out.println("Объем равен " + vol);
+        myBox2.volume();
     }
 }
